@@ -1,0 +1,50 @@
+.card {
+  position: relative;
+}
+
+.card img {
+  cursor: pointer;
+}
+.card .card-body {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.light-container {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.light-container .box {
+  background-image: url("../images/dina-seafood-1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.light-container .box i {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.light-container .box #close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}

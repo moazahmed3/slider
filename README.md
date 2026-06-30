@@ -101,9 +101,5 @@ This project demonstrates:
 - Thumbnail navigation
 - Lazy loading images
 
----
 
 
-Frontend Developer | Programming Instructor
-
----
